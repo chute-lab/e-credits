@@ -39,11 +39,12 @@ template {
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0
+    margin: 0;
+
 }
 
 a {
@@ -324,7 +325,7 @@ body {
     font-size: 14px;
     line-height: 1.428571429;
     color: #333;
-    background-color: #fff
+    background-color: #fbf7f7
 }
 
 input,
