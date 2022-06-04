@@ -137,13 +137,15 @@ a#scrollUp i {
     background: #CE3C2D;
 }
 
+/* La raya negra que haba ahi
+
 .header-middle .container .row {
     border-bottom: 1px solid #0f0c0c;
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 20px;
     padding-top: 20px;
-}
+} */
 
 .header-middle .container .row .col-sm-4 {
     padding-left: 0;
