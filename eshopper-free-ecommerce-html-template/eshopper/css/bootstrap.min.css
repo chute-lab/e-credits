@@ -338,7 +338,7 @@ textarea {
 }
 
 a {
-    color: #428bca;
+    color: #030D4B;
     text-decoration: none
 }
 
@@ -361,7 +361,13 @@ img {
 .img-responsive {
     display: block;
     height: auto;
-    max-width: 100%
+    max-width: 95%
+}
+
+.img-responsive2 {
+    display: block;
+    height: auto;
+    max-width: 65%
 }
 
 .img-rounded {
@@ -543,7 +549,7 @@ cite {
 }
 
 .text-primary {
-    color: #428bca
+    color: #030D4B
 }
 
 .text-primary:hover {
@@ -2536,7 +2542,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     color: #fff;
-    background-color: #428bca;
+    background-color: #030D4B;
     border-color: #357ebd
 }
 
@@ -2571,7 +2577,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #428bca;
+    background-color: #030D4B;
     border-color: #357ebd
 }
 
