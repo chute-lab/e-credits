@@ -355,7 +355,8 @@ a:focus {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    max-width: 100%;
 }
 
 .img-responsive {
@@ -4263,7 +4264,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav {
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    
+
 }
 
 .nav:before,
