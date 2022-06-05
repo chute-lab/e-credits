@@ -817,6 +817,12 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
+.container-sm {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 
 .container:before,
 .container:after {
