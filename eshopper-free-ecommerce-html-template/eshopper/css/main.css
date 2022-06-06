@@ -634,11 +634,11 @@ ul.sub-menu {
     position: absolute;
     top: 50%;
     font-size: 60px;
-    color: #C2C2C1;
+    color: #FCF7F7;
 }
 
 .control-carousel:hover {
-    color: #030d4b;
+    color: #FCF7F7;
 }
 
 .right {
