@@ -815,12 +815,67 @@ pre code {
     max-height: 340px;
     overflow-y: scroll
 }
+.header {
+    background:#030D4B;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+ .header a {
+     color: white;
+     text-decoration: none;
+
+ }
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: right;
+}
+.navigation_ {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: right;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+.navigation ul li a:hover{
+background: #051163;
+}
+.logo__ {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+    max-width: 125px;
+    max-height: 125px;
+    
+}
+.main {
+    padding-top: 12rem;
+}
 
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    margin: 0 auto
 }
 .container-sm {
     width: 100%;
@@ -848,6 +903,8 @@ pre code {
 .container:after {
     clear: both
 }
+
+
 
 @media(min-width:768px) {
     .container {

@@ -353,6 +353,10 @@ ul.sub-menu {
 
 #footer {
     background: #030d4b;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 1.6rem;
+
 }
 
 .footer-top .container {
