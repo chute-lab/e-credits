@@ -5220,7 +5220,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .breadcrumb>.active {
-    color: #999
+    color: #020E4B;
+    font-size: 22px;
 }
 
 .pagination {
