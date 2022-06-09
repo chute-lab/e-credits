@@ -34,90 +34,110 @@
 
 
 
-<header class="header">
-	<div class="container logo-nav-container">
-		<div class="logo__">
-			<a href="index.html"><img src="images/home/logobcreditoscuroxl.png" alt="" /></a>
-		</div>
 
-		</a>
-		<nav class="navigation">
-			<ul>
-				<li><a href="index.html" class="active">Home</a></li>
-				<!--
-							<span class="menu-icon">Categorias</span>
-
-							<nav class="navigation_">
-								<ul>
-									<li><a href="#">Puntos</a></li>
-									<li><a href="#">millas</a></li>
-
-								</ul>
-							</nav>
-								<ul role="menu" class="sub-menu">
-									<li><a href="shop.html">Products</a></li>
-									<li><a href="product-details.html">Product Details</a></li> 
-									<li><a href="checkout.html">Checkout</a></li> 
-									<li><a href="cart.html">Cart</a></li> 
-									<li><a href="login.html">Login</a></li> 
-								</ul>
-							</li> 
-						-->
-							<li><a href="contact-us.html">Categorias</a></li>
-							<li><a href="contact-us.html">Mis publicaciones</a></li>
-							<li><a href="vender.html">Vender</a></li>
-							
-							<li><a href="contact-us.html">Ayuda</a></li>
-							<!-- <li><a href=""><i class="fa fa-star"></i> Favoritos</a></li> -->
-							<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> </a></li>
-							<li><a href="login.html"><i class="fa fa-user"></i> Mi cuenta</a>
-								<ul role="menu" class="sub-menu">
-									<li><a href="login.html">Login</a></li>
-									<li><a href="checkout.html">Checkout</a></li>
-									<li><a href="checkout.html">Mi perfil</a></li>
-								</ul>
-							</li>
-			</ul>
-		</nav>
-	</div>	
-</header>
-	
-	
-		<div class="header-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-9">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="col-sm-12">
-							
-						</div>
-					</div>
-					<!-- <div class="col-sm-3">
-						<div class="search_box pull-right">
-							<input type="text" placeholder="Search"/>
-						</div> -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</header><!--/header-->
-	<br>
-	<br>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <div class="logo__">
+                <a href="index.html"><img src="images/home/logobcreditoscuroxl.png" alt="" /></a>
+            </div>
+    
+            </a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <!--
+                                <span class="menu-icon">Categorias</span>
+    
+                                <nav class="navigation_">
+                                    <ul>
+                                        <li><a href="#">Puntos</a></li>
+                                        <li><a href="#">millas</a></li>
+    
+                                    </ul>
+                                </nav>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="shop.html">Products</a></li>
+                                        <li><a href="product-details.html">Product Details</a></li> 
+                                        <li><a href="checkout.html">Checkout</a></li> 
+                                        <li><a href="cart.html">Cart</a></li> 
+                                        <li><a href="login.html">Login</a></li> 
+                                    </ul>
+                                </li> 
+                            -->
+                                <li><a href="contact-us.html">Categorias</a></li>
+                                <li><a href="contact-us.html">Mis publicaciones</a></li>
+                                <li><a href="vender.html">Vender</a></li>
+                                
+                                <li><a href="contact-us.html">Ayuda</a></li>
+                                <!-- <li><a href=""><i class="fa fa-star"></i> Favoritos</a></li> -->
+                                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> </a></li>
+                                <li><a href="login.html"><i class="fa fa-user"></i> Mi cuenta</a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="checkout.html">Mi perfil</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+            </nav>
+        </div>	
+    </header>
 	
 	<div class="container">
-		<h2 class="title text-center"> <strong>Publicar</strong></h2>  
     	<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-				
-				<a type="button" class="btn btn-primary btn-lg btn-block" href="vendermillas.html">Millas Aereas</a>
-				<a type="button" class="btn btn-primary btn-lg btn-block" href="venderpuntos.html">Club de puntos</a>
+				<h2> Crea tu alerta</h2>
+                <br>
+				<form>
+					<div class="form-group">
+					  <label for="formGroupExampleInput">Aerolinea o club de millas</label>
+					  <form>
+						<div class="form-row align-items-center">
+						  <div class="col-auto my-1">
+						
+							<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected>Elegir</option>
+                                <option value="1">American Airlines</option>
+                                <option value="2">Aerolineas Argentinas</option>
+                                <option value="3">Smiles</option>
+                                <option value="4">United Airlines</option>
+                                <option value="5">KLM</option>
+							  
+
+							</select>
+						  </div>
+					<br>  
+					</div>
+					<div class="form-group">
+					  <label for="formGroupExampleInput2">Cantidad de millas</label>
+					  <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="">
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput2">Precio</label>
+						<form class="form-inline">
+							<div class="form-group">
+							  <label class="sr-only" for="exampleInputAmount"></label>
+							  <div class="input-group">
+								<div class="input-group-addon">ARS</div>
+								<input type="number" min="0.00"  id="exampleInputAmount" class="form-control" placeholder="Precio">
+							  </div>
+							</div>
+						  </form>
+
+						
+					  </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2">Mail</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                      </div>
+					  
+					  <a type="button" class="btn btn-primary btn-lg btn-block" href="crearalertas_puntos.html">Crear alerta</a>
+
+					  
+
+					  
+					  
+				  </form>
 
 
 
@@ -129,16 +149,15 @@
 			</div>
 		</div>
 	</div>
-
-	
+</div>
 	<div class="header-bottom2">
 		</div>
-	
 	
 	<footer id="footer"><!--Footer-->
 		
 		
-		<div class="footer">
+		<div class="footer
+		">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-2">
@@ -202,9 +221,8 @@
 				</div>
 			</div>
 		</div>
-	</main>
 		
-	<!--	<div class="footer-bottom">
+		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
 					<p class="pull-left">Copyright © 2022 Bro-Credit Inc. All rights reserved.</p>
@@ -212,7 +230,7 @@
 				</div>
 			</div>
 		</div>
-	-->
+		
 	</footer><!--/Footer-->
 	
 
@@ -223,9 +241,6 @@
 	<script src="js/price-range.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
-	<script src="js/categor.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
 </body>
 
 
