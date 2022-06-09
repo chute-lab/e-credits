@@ -1171,7 +1171,7 @@ h2.title {
 }
 
 .view-product {
-    position: relative;
+    position: absolute;
 }
 
 .view-product img {
@@ -1222,7 +1222,7 @@ h2.title {
     border: 1px solid #F7F7F0;
     overflow: hidden;
     padding-bottom: 60px;
-    padding-left: 60px;
+    padding-left: 30px;
     padding-top: 60px;
     position: relative;
 }
@@ -1310,7 +1310,7 @@ h2.title {
 }
 
 #reviews ul {
-    background: #FFFFFF;
+    background: #FCF7F7;
     border: 0 none;
     list-style: none outside none;
     margin: 0 0 20px;
