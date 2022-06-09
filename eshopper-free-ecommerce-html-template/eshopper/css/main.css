@@ -1589,6 +1589,9 @@ h2.title {
     border-top: 0 none;
     vertical-align: inherit;
     margin-right: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
 }
 
 #cart_items .cart_info .image {
@@ -1619,6 +1622,17 @@ h2.title {
     color: #030d4b;
     font-size: 24px;
 }
+
+.cart_total_price1 {
+    color: #10b149;
+    font-size: 15px;
+}
+
+.cart_total_price2 {
+    color: #e12f0c;
+    font-size: 15px;
+}
+
 
 .cart_product {
     display: block;
