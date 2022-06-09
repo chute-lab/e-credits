@@ -866,8 +866,8 @@ background: #051163;
     max-height: 125px;
     
 }
-.main {
-    padding-top: 12rem;
+.btn_  {
+    align-items: right;      
 }
 
 .container {
