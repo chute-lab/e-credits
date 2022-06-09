@@ -17,6 +17,8 @@
  * limitations under the License.
  * ========================================================= */
  
+
+
 !function( $ ) {
 
 	var Slider = function(element, options) {
