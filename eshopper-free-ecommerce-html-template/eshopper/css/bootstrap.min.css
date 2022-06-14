@@ -867,6 +867,12 @@ background: #051163;
     max-height: 125px;
     
 }
+.logo__carrito {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+    max-width: 45px;
+    max-height: 45px;
+}
 .btn_  {
     align-items: right;      
 }
