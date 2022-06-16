@@ -39,19 +39,19 @@
 		<div class="logo__">
 			<a href="index.html"><img src="images/home/logobcreditoscuroxl.png" alt="" /></a>
 		</div>
-		<nav class="right">
-			<ul class="nav-item dropdown">
-				<a href="#" class="nav-link dropdown-toggle" id="btn-dropdown-service" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
-							<ul class="dropdown-menu" aria-labelledby="btn-dropdown-service">
-								<li><a href="shopmillas.html" class="dropdown-item" >Millas Aereas</a></li>
-								<li><a href="shopmillas.html" class="dropdown-item">Club de puntos</a></li>
-							</ul>
-						</ul>
-		</nav>
 		
 
 		<nav class="navigation">
-			<ul>
+			<div class="collapse navbar-collapse" id="contenido-nav">
+			<ul class="navbar-nav ml-auto">
+				<li><a href="index.html" class="active">Home</a></li>
+				<li class="nav-item">
+					<a href="#" class="nav-link dropdown-toggle" id="btn-dropdown-service" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
+								<div class="dropdown-menu" aria-labelledby="btn-dropdown-service">
+									<a href="shopmillas.html" class="dropdown-item" >Millas Aereas</a>
+									<a href="shoppuntos.html" class="dropdown-item">Club de puntos</a>
+								</div>
+							</li>
 							
 							<!-- <li><a class="navigation" href="contact-us.html">Categorias</a></li> -->
 						
@@ -78,7 +78,7 @@
 					
 					
 			</ul>
-			
+		</div>
 		</nav>
 		
 	</div>	
